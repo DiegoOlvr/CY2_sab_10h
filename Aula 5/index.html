@@ -12,65 +12,64 @@
             <img src="https://www.megapolo.com.br/img/shopping.svg">
         </div>
         <div class="conteiner-direita">
-            <div>
+            <div class="flex">
                 <h1>Cadastre-se</h1>
                 <button>Entrar</button>
             </div>
-            <div>
-                <div>
+            <div class="flex">
+                <div class="inputs">
                     <label>Primeiro Nome</label>
                     <input type="text" placeholder="Digite o seu primeiro nome">
                 </div>
-                <div>
+                <div class="inputs">
                     <label>Sobrenome</label>
                     <input type="text" placeholder="Digite o seu sobrenome">
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="flex">
+                <div class="inputs">
                     <label>E-mail</label>
                     <input type="email" placeholder="Digite o seu e-mail">
                 </div>
-                <div>
+                <div class="inputs">
                     <label>Telefone</label>
                     <input type="tel" placeholder="(xx) x xxxx-xxxx">
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="flex">
+                <div class="inputs">
                     <label>Senha</label>
                     <input type="password" placeholder="Digite a sua senha">
                 </div>
-                <div>
+                <div class="inputs">
                     <label>Confirme sua senha</label>
                     <input type="password" placeholder="Digite sua senha novamente">
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="conteiner-genero" >
                     <h2>
                         Gênero
                     </h2>
-                    <div>
+                    <div class="flex">
                         <div>
-                            <input type="radio">
-                            <label >Masculino</label>
+                            <input type="radio" id="male">
+                            <label for="male" >Masculino</label>
                         </div>
                         <div>
-                            <input type="radio">
-                            <label >Feminino</label>
+                            <input type="radio" id="female">
+                            <label for="female" >Feminino</label>
                         </div>
                         <div>
-                            <input type="radio">
-                            <label >Outros</label>
+                            <input type="radio" id="others">
+                            <label for="others" >Outros</label>
                         </div>
                         <div>
-                            <input type="radio">
-                            <label >Prefiro não dizer</label>
+                            <input type="radio" id="none">
+                            <label for="none" >Prefiro não dizer</label>
                         </div>
                     </div>
-                </div>
             </div>
+            <button class="continuar" type="submit">Continuar</button>
         </div>
     </section>
 </body>
