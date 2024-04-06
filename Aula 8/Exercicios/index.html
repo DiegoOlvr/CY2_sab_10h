@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercícios - Checklist</title>
+</head>
+<body>
+    <h2>Lista de Exercícios - Checklist</h2>
+    <form id="checklistForm">
+        <ul>
+            <li><input type="checkbox" id="exercicio1" value="Exercício de Redimensionamento de Elemento "> Exercício de Redimensionamento de Elemento Crie um elemento que mude de cor quando for redimensionado.</li>
+            <li><input type="checkbox" id="exercicio2" value="Exercício de Arrastar e Soltar"> Exercício de Arrastar e Soltar</li>
+            <li><input type="checkbox" id="exercicio3" value="Exercício de Foco de Elemento"> Exercício de Foco de Elemento</li>
+            <li><input type="checkbox" id="exercicio4" value="Exercício de Perda de Foco de Elemento"> Exercício de Perda de Foco de Elemento</li>
+            <li><input type="checkbox" id="exercicio5" value="Exercício de Mouse Movido"> Exercício de Mouse Movido</li>
+            <li><input type="checkbox" id="exercicio6" value="Exercício de Rolagem de Página"> Exercício de Rolagem de Página</li>
+            <li><input type="checkbox" id="exercicio7" value="Exercício de Botão de Duplo Clique"> Exercício de Botão de Duplo Clique</li>
+            <li><input type="checkbox" id="exercicio8" value="Exercício de Seleção de Texto"> Exercício de Seleção de Texto</li>
+            <li><input type="checkbox" id="exercicio9" value="Exercício de Mudança de Janela"> Exercício de Mudança de Janela</li>
+            <li><input type="checkbox" id="exercicio10" value="Exercício de Carregamento de Página"> Exercício de Carregamento de Página</li>
+        </ul>
+        <button type="button" onclick="exibirSelecionados()">Verificar Selecionados</button>
+    </form>
+
+    <script>
+        function exibirSelecionados() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const selecionados = [];
+
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    selecionados.push(checkbox.value);
+                }
+            });
+
+            if (selecionados.length > 0) {
+                alert("Exercícios selecionados:\n" + selecionados.join("\n"));
+            } else {
+                alert("Nenhum exercício selecionado.");
+            }
+        }
+    </script>
+</body>
+</html>
