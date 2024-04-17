@@ -10,7 +10,7 @@
 ## Exercício de Duplo Clique:
 - Crie um elemento de parágrafo que exiba um alerta quando for clicado duas vezes.
 
-## Exercício de Mudança de Valor:
+## 5 - Exercício de Mudança de Valor:
 - Crie um campo de texto que exiba um alerta quando seu valor for alterado.
 
 ## Exercício de Redimensionamento de Elemento:
@@ -22,7 +22,7 @@
 ## Exercício de Foco de Elemento:
 - Crie um campo de texto que mude de cor quando estiver em foco.
 
-## Exercício de Perda de Foco de Elemento:
+## 9 - Exercício de Perda de Foco de Elemento:
 - Crie um campo de texto que mude de cor quando perder o foco.
 
 ## Exercício de Mouse Movido:
@@ -34,11 +34,11 @@
 ## Exercício de Botão de Duplo Clique:
 - Crie um botão que execute uma ação quando clicado duas vezes.
 
-## Exercício de Seleção de Texto:
+## 13 - Exercício de Seleção de Texto:
 - Implemente uma função que exiba um alerta quando o usuário selecionar texto na página.
 
-## Exercício de Mudança de Janela:
+## 14 - Exercício de Mudança de Janela:
 - Crie um elemento que exiba um alerta quando a janela do navegador mudar de tamanho.
 
-## Exercício de Carregamento de Página:
+## 15 - Exercício de Carregamento de Página:
 - Implemente uma função que exiba um alerta quando a página terminar de carregar.

@@ -1,0 +1,7 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid black;
+    transition: background-color 0.5s ease;
+}
