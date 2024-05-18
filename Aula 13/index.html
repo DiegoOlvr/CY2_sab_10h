@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Notas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <form action="resultado.html" id="formulario">
+            <div>
+                <h1>
+                    CADASTRO DE NOTAS
+                </h1>
+            </div>
+            <div class="conteiner-inputs">
+                <div>
+                    <label for="nome_input">Nome</label>
+                    <input type="text" name="nome_input" id="nome_input" placeholder="Digite o nome do aluno" required>
+                </div>
+                <div>
+                    <label for="n1_input">Nota 1</label>
+                    <input type="number" name="n1_input" id="n1_input" placeholder="Digite um nota entre 0 e 10" max="10" min="0" required>
+                </div>
+                <div>
+                    <label for="n2_input">Nota 2</label>
+                    <input type="number" name="n2_input" id="n2_input" placeholder="Digite um nota entre 0 e 10" max="10" min="0" required>
+                </div>
+                <div>
+                    <label for="n3_input">Nota 3</label>
+                    <input type="number" name="n3_input" id="n3_input" placeholder="Digite um nota entre 0 e 10" max="10" min="0" required>
+                </div>
+            </div>
+            <div class="conteiner-btn">
+                <button class="submit" type="submit">Enviar</button>
+                <button class="reset" type="reset">Limpar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

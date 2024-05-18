@@ -75,3 +75,7 @@ button:hover {
     width: 100%;
     
 }
+
+input[type="radio"]{
+    accent-color: #bc76c2;
+}
