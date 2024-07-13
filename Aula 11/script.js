@@ -31,7 +31,6 @@ function contagem() {
 
 // CHAMAR FUNÇÃO
 contagem()
-
 // CHAMAR A FUNÇÃO DE TEMPO EM TEMPO
 setInterval(contagem, 1000)
 

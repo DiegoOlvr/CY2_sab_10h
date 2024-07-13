@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    text-align: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 0);
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-height: 42rem;
+}
+
+.poke_img {
+    position: absolute;
+    bottom: 58%;
+    left: 50%;
+    transform: translate(-63%, 40%);
+}
+
+.poke_info {
+    position: absolute;
+    top: 53%;
+    right: 30%;
+    color: gray;
+    font-weight: bold;
+    font-size: clamp(0.8rem, 5vw, 2rem);
+}
+
+.poke_name {
+    text-transform: capitalize;
+}
+
+.container_input {
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 65%;
+}
+
+.container_buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    display: flex;
+    gap: 2rem;
+    transform: translate(-57%, 0);
+}
+
+button {
+    width: 50%;
+    padding: 5%;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: clamp(0.8rem, 5vw, 1rem);
+    box-shadow: -0.2rem 0.3rem 0 rgb(40,40,40), -0.4rem 0.6rem 0 black;
+}
+
+button:active {
+    box-shadow: inset -0.2rem 0.3rem 0 rgb(40,40,40);
+    font-size: 0.9rem;
+}
+
+.input_search {
+    width: 100%;
+    outline: none;
+    padding: 5%;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: gray;
+    font-size: clamp(0.8rem, 5vw, 1rem);
+    box-shadow: -0.3rem 0.4rem 0 gray, -0.5rem 0.7rem 0 black;
+}
